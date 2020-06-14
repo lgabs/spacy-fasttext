@@ -1,0 +1,7 @@
+# Exception made for .gitignore
+!.gitignore
+
+/model
+/model_package
+/vector
+.bash_history
