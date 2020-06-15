@@ -26,7 +26,7 @@ docker build -t spacy-fasttext .
 
 ## Train your first model
 
-Once the image is built, run the following command to build the first model
+Once the image is built, run the following command to build the first model.
 Go to terminal and reach the present directory first.
 
 
@@ -41,7 +41,7 @@ This will build the model in the model folder
 ```sh
 docker run -v $PWD:/app spacy-fasttext python -m spacy package model model_package
 
-docker run -it -v $PWWD::/app spacy-fasttext bash
+docker run -it -v $PWD::/app spacy-fasttext bash
 cd model_package/nl_model-0.0.0
 python setup.py sdist
 ```
