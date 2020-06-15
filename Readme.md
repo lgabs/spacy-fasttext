@@ -1,10 +1,10 @@
 ## Loading FastText vectors on Spacy
 
-Tbe requirements are really simple. 
+The requirements are really simple. 
 
 ## Requirements
 
-You should have docker
+You should have docker.
 
 ## Download the FastText vector
 
